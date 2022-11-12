@@ -1,8 +1,8 @@
 ---
 layout: categories
-language: en
+language: es
 permalink: /categories/
-title: Categories
+title: Categorias
 ---
-## Posts by Category
-Here is a list of posts, grouped by category:
+
+Categorias...
