@@ -21,3 +21,18 @@ remote_data_prefix: "https://my-github-org.github.io/open-sdg-data-starter"
 analytics:
   # For production, you likely want to enter a Google Analytics code below.
   ga_prod: ''
+
+reporting_status:
+  title: status.reporting_status
+  description: status.description
+  disaggregation_tabs: false
+  status_types:
+    - value: notstarted
+      label: status.exploring_data_sources
+      hide_on_goal_pages: false
+    - value: complete
+      label: status.reported_online
+      hide_on_goal_pages: false
+    - value: notapplicable
+      label: status.not_applicable
+      hide_on_goal_pages: false
