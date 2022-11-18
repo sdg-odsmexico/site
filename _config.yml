@@ -20,7 +20,7 @@ collections:
     output: true
   goals:
     output: true
-
+decimal_separator: '.'
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
   - jekyll-remote-theme
