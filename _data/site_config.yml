@@ -230,13 +230,13 @@ metadata_tabs:
     title: indicator.global_metadata
     description: indicator.global_metadata_blurb
  # Genera la pestaña de fuentes con la etiqueta source_1, source_2... del yml de configuración (obsoleto)
- # - scope: sources
- #   title: indicator.sources
-  #  description: ''
-  # Genera otra pestaña de fuentes con la etiqueta source del yml de configuración
-  - scope: sources_alt
+  - scope: sources
     title: indicator.sources
     description: ''
+  # Genera otra pestaña de fuentes con la etiqueta source del yml de configuración
+  #- scope: sources_alt
+  #  title: indicator.sources
+  #  description: ''
 news:
   category_links: false
 progress_status:
