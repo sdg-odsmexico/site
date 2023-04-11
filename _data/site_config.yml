@@ -232,6 +232,9 @@ metadata_tabs:
   - scope: sources
     title: indicator.sources
     description: ''
+  - scope: sources_alt
+    title: indicator.sources
+    description: ''
 news:
   category_links: false
 progress_status:
