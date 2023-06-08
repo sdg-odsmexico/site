@@ -49,5 +49,5 @@ function alterDataDisplay(value, info, context) {
             altered = altered.toLocaleString(opensdg.language, localeOpts);
         }
     }
-    return altered;
+    return altered; 
 }
