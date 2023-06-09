@@ -19,7 +19,7 @@ function myMapColorFunction(indicatorId, goalId) {
       return chroma.brewer.OrRd;
       break;
      case 3:
-      return color1;
+      return colors1;
       break;
      case 4:
       return chroma.brewer.OrRd;
@@ -37,28 +37,31 @@ function myMapColorFunction(indicatorId, goalId) {
       return chroma.brewer.OrRd;
       break;
      case 9:
-      return color1;
+      return colors1;
       break;
      case 10:
-      return color1;
+      return colors1;
       break;
      case 11:
-      return color1;
+      return colors1;
       break;
      case 12:
-      return color1;
+      return colors1;
       break;
      case 13:
-      return color1;
+      return colors1;
       break;
      case 14:
-      return color1;
+      return colors1;
       break;
      case 15:
-      return color1;
+      return colors1;
       break;
      case 16:
-      return color1;
+      return colors1;
+      break;
+     case 17:
+      return colors1;
       break;
   }
 }
