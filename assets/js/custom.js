@@ -11,7 +11,7 @@ var colors1 = [
   "#276836"
 ];
 function myMapColorFunction(indicatorId, goalId) {
-  switch(goalId){
+  switch(parseInt(goalId)){
     case 1:
       return chroma.brewer.OrRd;
       break;
