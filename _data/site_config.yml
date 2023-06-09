@@ -185,7 +185,7 @@ map_options:
     id: ''
     accessToken: ''
     attribution: ''
-  colorRange: opensdg.mapColors.default
+  colorRange: myMapColorFunction
   noValueColor: '#f0f0f0'
   styleNormal:
     weight: 1
