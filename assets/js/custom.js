@@ -65,3 +65,6 @@ function myMapColorFunction(indicatorId, goalId) {
       break;
   }
 }
+function revisaContra() {
+  console.log("entre contraseña");
+}
