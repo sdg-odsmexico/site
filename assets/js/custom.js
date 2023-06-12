@@ -67,4 +67,15 @@ function myMapColorFunction(indicatorId, goalId) {
 }
 function revisaContra() {
   console.log("entre contraseña");
+  var contra= document.getElementById("contra").value;
+  console.log(contra);
+  if (contra=="password"){
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("errorContra").style.display="none";
+  }
+  else {
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("errorContra").style.display="block";
+  }
+  
 }
