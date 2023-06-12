@@ -69,7 +69,7 @@ function revisaContra() {
   var contra= document.getElementById("contra").value;
   console.log(contra);
   if (contra=="password"){
-    document.getElementById("divContra").style.display="block";
+    document.getElementById("divContra").style.display="none";
     document.getElementById("errorContra").style.visibility="hidden";
   }
   else {
