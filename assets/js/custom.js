@@ -1,4 +1,17 @@
 // Add any custom javafuscript here.
+//arreglo de usuarios y contraseñas
+
+var usucontra=[
+  {
+    "usuario":"sandra.marquez",
+    "contra": "bety"
+  },
+  {
+    "usuario":"sergio.nieto",
+    "contra":"jefe"
+  }
+]
+//colores para el  mapa
 var colors1 = [
   "#c4e1c6",
   "#b0d1b3",
@@ -66,15 +79,53 @@ function myMapColorFunction(indicatorId, goalId) {
   }
 }
 function revisaContra() {
-  var contra= document.getElementById("contra").value;
-  console.log(contra);
-  if (contra=="password"){
-    document.getElementById("divContra").style.display="none";
-    document.getElementById("errorContra").style.visibility="hidden";
-  }
-  else {
+  var contra= document.getElementById("contra").value
+  var usuario= document.getElementById("usu").value;
+  document.getElementById("sContra").innerHTML="";
+  document.getElementById("dContra").style.visibility="hidden";
+  document.getElementById("sUsu").innerHTML="";
+  document.getElementById("dUsu").style.visibility="hidden";
+  if(usuario.trim()==="")
+  {
     document.getElementById("divContra").style.display="block";
-    document.getElementById("errorContra").style.visibility="visible";
+    document.getElementById("sUsu").innerHTML="Usuario requerido";
+    document.getElementById("dUsu").style.visibility="visible";
+    return;
   }
-  
+  if(contra.trim()==="")
+  {
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("sContra").innerHTML="Contraseña requerida";
+    document.getElementById("dContra").style.visibility="visible";
+    return;
+  }
+  var result= usucontra.find(({ usuario }) => usuario === usuario);
+  if (result!= "undefined"){
+      if(usuario!=result.usuario){
+        document.getElementById("divContra").style.display="block";
+        document.getElementById("sUsu").innerHTML="Usuario incorrecto";
+        document.getElementById("dUsu").style.visibility="visible";
+      }
+      else{
+        if(contra!=result.contra){
+          document.getElementById("divContra").style.display="block";
+          document.getElementById("sContra").innerHTML="Contraseña incorrecta";
+          document.getElementById("dContra").style.visibility="visible";
+        }
+        else{
+          document.getElementById("divContra").style.display="none";
+          document.getElementById("dUsu").style.visibility="hidden";
+          document.getElementById("dContra").style.visibility="hidden";
+          document.body.style.overflow = "auto";
+        }
+      }
+    }
+ 
+  else
+  {
+    document.getElementById("divContra").style.display="block";
+    document.getElementById("sUsu").innerHTML="Usuario no registrado";
+    document.getElementById("dUsu").style.visibility="visible";
+    document.getElementById("dContra").style.visibility="hidden";
+  }
 }
