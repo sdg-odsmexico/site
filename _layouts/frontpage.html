@@ -44,16 +44,28 @@
     {% endif %}
 
 </div>
-<div id="divContra" style="position:absolute;top:0;width:100%;height:1200px;background-color:#465178;display:block;z-index:20000">
-    <div style="border:1px solid black; width:25%; height:130px; background-color:white;margin:auto;margin-top:15rem;">
-        <div style="display:flex;padding:1rem;">
-            <div style="padding-top: 0.2rem">Contraseña: </div>
-            <div style="padding-left:0.5rem;"><input type="password" id="contra" name="contra" value="" style="border: 1px solid #c7c0c0;border-radius: 0.4rem;" /></div>
+<div id="divContra">
+        <div class="divFlex">
+            <div class="margAuto"><img src="/site/assets/img/LogoODS2_es.png"/></div>
+            <div class="divWhite"></div>
+            <div class="margAuto width35">
+                <div class="margleft-5">
+                <div><input type="text" id="usu" name="usu" value="" class="inputUsu"  /></div>
+                <div class="display-flex">
+                    <div class="padTop colorWhite width70">Usuario </div>
+                    <div id="dUsu"><span id="sUsu" class="errorUsuContra"></span></div>
+                </div>
+                <div class="padTop1"><input type="password" id="contra" name="contra" value="" class="inputCon" /></div>
+                <div class="display-flex">
+                    <div class="padTop colorWhite width70">Contraseña</div>
+                    <div id="dContra"><span id="sContra" class="errorUsuContra"></span></div>
+                </div>
+                <div class="divBtn">
+                    <button type="button" class="btnAcepta" onclick="revisaContra()">Aceptar</button>
+                </div>
+                </div>
+            </div>
         </div>
-        <div id="errorContra" style="padding-left:6rem;padding-bottom:0.5rem;visibility:hidden;color:#f74646;">Contraseña incorrecta</div>
-        <div style="float: right;padding-right: 1rem;">
-            <button type="button" style="border: 1px solid #38388f;color: #ffffff;background-color: #38388f;border-radius: 0.2rem;" onclick="revisaContra()">Aceptar</button>
-        </div>
-    </div>
+        
 </div>
 {% include footer.html %}
