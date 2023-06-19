@@ -85,7 +85,7 @@ function revisaContra() {
   document.getElementById("dContra").style.visibility="hidden";
   document.getElementById("sUsu").innerHTML="";
   document.getElementById("dUsu").style.visibility="hidden";
-  if(usuario.trim()==="")
+  if(usu.trim()==="")
   {
     document.getElementById("divContra").style.display="block";
     document.getElementById("sUsu").innerHTML="Usuario requerido";
