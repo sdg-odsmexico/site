@@ -99,7 +99,7 @@ function revisaContra() {
     document.getElementById("dContra").style.visibility="visible";
     return;
   }
-  var result= usucontra.find(({ usuario }) => usuario === usuario);
+  var result= usucontra.find(({ us }) => us === usuario);
   if (result!= "undefined"){
       if(usuario!=result.usuario){
         document.getElementById("divContra").style.display="block";
