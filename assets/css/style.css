@@ -2801,4 +2801,4 @@ td {
   background-color: #04587e !important; }
 
 #selectionChartFooter {
-  overflow-wrap: anywhere; }
+  overflow-wrap: anywhere !important; }
