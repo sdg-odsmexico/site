@@ -2039,15 +2039,23 @@
         },
         {
           "id": "10-2-1",
-          "title": "Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "10-2-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-2-1a/",
+          "status": "notstarted"
+        },
+        {
           "id": "10-3-1",
-          "title": "Proportion of population reporting having personally felt discriminated against or harassed in the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-3-1/",
@@ -2055,7 +2063,7 @@
         },
         {
           "id": "10-4-1",
-          "title": "Labour share of GDP",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-1/",
@@ -2067,6 +2075,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/10-4-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-r-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-4-r-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-4-r-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-4-r-1b/",
           "status": "notstarted"
         },
         {
@@ -2140,6 +2164,38 @@
           "keywords": "",
           "href": "/site/en/10-c-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "10-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n2-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n3-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n3-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "10-n4-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/10-n4-1/",
+          "status": "notstarted"
         }]
     }
   },
@@ -2151,7 +2207,7 @@
         
         {
           "id": "11-1-1",
-          "title": "Proportion of urban population living in slums, informal settlements or inadequate housing",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-1-1/",
@@ -2159,15 +2215,47 @@
         },
         {
           "id": "11-2-1",
-          "title": "Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-2-1/",
           "status": "notstarted"
         },
         {
+          "id": "11-2-r-1a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-2-r-1a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-r-1b",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-2-r-1b/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-r-1c",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-2-r-1c/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-2-r-1d",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-2-r-1d/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-3-1",
-          "title": "Ratio of land consumption rate to population growth rate",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-3-1/",
@@ -2175,7 +2263,7 @@
         },
         {
           "id": "11-3-2",
-          "title": "Proportion of cities with a direct participation structure of civil society in urban planning and management that operate regularly and democratically",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-3-2/",
@@ -2183,7 +2271,7 @@
         },
         {
           "id": "11-4-1",
-          "title": "Total per capita expenditure on the preservation, protection and conservation of all cultural and natural heritage, by source of funding (public, private), type of heritage (cultural, natural) and level of government (national, regional, and local/municipal)",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-4-1/",
@@ -2191,7 +2279,7 @@
         },
         {
           "id": "11-5-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-5-1/",
@@ -2222,6 +2310,14 @@
           "status": "notstarted"
         },
         {
+          "id": "11-6-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-6-1-a/",
+          "status": "notstarted"
+        },
+        {
           "id": "11-6-2",
           "title": "Annual mean levels of fine particulate matter (e.g. PM2.5 and PM10) in cities (population weighted)",
           "description": "",
@@ -2231,7 +2327,7 @@
         },
         {
           "id": "11-7-1",
-          "title": "Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/11-7-1/",
@@ -2267,6 +2363,22 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/11-b-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "11-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/11-n2-1/",
           "status": "notstarted"
         }]
     }
@@ -2334,6 +2446,22 @@
           "status": "notstarted"
         },
         {
+          "id": "12-5-1-a",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12-5-1-a/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-5-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12-5-r-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "12-6-1",
           "title": "Number of companies publishing sustainability reports",
           "description": "",
@@ -2367,7 +2495,7 @@
         },
         {
           "id": "12-b-1",
-          "title": "Implementation of standard accounting tools to monitor the economic and environmental aspects of tourism sustainability",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/12-b-1/",
@@ -2380,6 +2508,22 @@
           "keywords": "",
           "href": "/site/en/12-c-1/",
           "status": "notstarted"
+        },
+        {
+          "id": "12-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "12-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/12-n2-1/",
+          "status": "notstarted"
         }]
     }
   },
@@ -2391,7 +2535,7 @@
         
         {
           "id": "13-1-1",
-          "title": "Number of deaths, missing persons and directly affected persons attributed to disasters per 100,000 population",
+          "title": "",
           "description": "",
           "keywords": "",
           "href": "/site/en/13-1-1/",
@@ -2411,6 +2555,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/13-1-3/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-1-r",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-1-r/",
           "status": "notstarted"
         },
         {
@@ -2438,6 +2590,14 @@
           "status": "notstarted"
         },
         {
+          "id": "13-3-r-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-3-r-1/",
+          "status": "notstarted"
+        },
+        {
           "id": "13-a-1",
           "title": "Amounts provided and mobilized in United States dollars per year in relation to the continued existing collective mobilization goal of the $100 billion commitment through to 2025",
           "description": "",
@@ -2451,6 +2611,30 @@
           "description": "",
           "keywords": "",
           "href": "/site/en/13-b-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-n1-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-n1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-n1-2",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-n1-2/",
+          "status": "notstarted"
+        },
+        {
+          "id": "13-n2-1",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/en/13-n2-1/",
           "status": "notstarted"
         }]
     }
