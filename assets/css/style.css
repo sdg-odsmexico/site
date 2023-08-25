@@ -2799,3 +2799,6 @@ td {
 
 .btn-primary:hover {
   background-color: #04587e !important; }
+
+#selectionChartFooter {
+  overflow-wrap: anywhere; }
