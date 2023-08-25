@@ -106,8 +106,8 @@ goals_page:
   description: goal.description
 graph_color_headline: '#004466'
 graph_color_headline_high_contrast: '#55a6e5'
-graph_color_set: accesible
-graph_color_list: []
+graph_color_set: custom
+graph_color_list: ['3fd64f','cfd63f','4eecec','ec4ed9']
 graph_color_number: 0
 graph_title_from_series: false
 header_language_toggle: dropdown
@@ -248,6 +248,9 @@ reporting_status:
   description: status.description
   disaggregation_tabs: false
   status_types:
+    - value: inprogress
+      label: status.statistics_in_progress
+      hide_on_goal_pages: false
     - value: notstarted
       label: status.exploring_data_sources
       hide_on_goal_pages: false
