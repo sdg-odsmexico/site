@@ -239,35 +239,35 @@
         },
         {
           "id": "2-1-2",
-          "title": "",
+          "title": "2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-1-2-a",
-          "title": "",
+          "title": "2.1.2.a Proporción de la población con inseguridad alimentaria moderada o severa, por desglose geográfico",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-1-2-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-1",
-          "title": "",
+          "title": "2.2.1 Prevalencia del retraso en el crecimiento (estatura para la edad, desviación típica < -2 de la mediana de los patrones de crecimiento infantil de la Organización Mundial de la Salud (OMS)) entre los niños menores de 5 años",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2",
-          "title": "",
+          "title": "2.2.2 Prevalencia de la malnutrición (peso para la estatura, desviación típica > +2 o < -2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años, desglosada por tipo (emaciación y sobrepeso)",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-3",
@@ -279,19 +279,19 @@
         },
         {
           "id": "2-2-2(1)",
-          "title": "",
+          "title": "2.2.2(1) Prevalencia de emaciación (peso para la estatura, desviación típica <-2 de la mediana de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-2(1)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-2-2(2)",
-          "title": "",
+          "title": "2.2.2(2) Prevalencia de sobrepeso u obesidad (peso para la estatura, desviación típica >+2 de los patrones de crecimiento infantil de la OMS) entre los niños menores de 5 años",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-2-2(2)/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-3-1",
@@ -319,19 +319,19 @@
         },
         {
           "id": "2-4-r-a",
-          "title": "",
+          "title": "2.4.r.a Intensidad de uso de fertilizantes (consumo aparente por superficie cultivada)",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-4-r-a/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "2-4-r-b",
-          "title": "",
+          "title": "2.4.r.b Consumo aparente de plaguicidas por tipo (herbicidas, insecticidas o funguicidas)",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-4-r-b/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "2-5-1",
@@ -383,27 +383,27 @@
         },
         {
           "id": "2-n1-1",
-          "title": "",
+          "title": "2.n1.1 Porcentaje de la población menor de 5 años que presenta algún tipo de desnutrición crónica",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-n2-1",
-          "title": "",
+          "title": "2.n2.1 Porcentaje de población con inseguridad alimentaria moderada o severa",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "2-n3-1",
-          "title": "",
+          "title": "2.n3.1 Rendimiento agrícola del maíz de grano",
           "description": "",
           "keywords": "",
           "href": "/site/en/2-n3-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
