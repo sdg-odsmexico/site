@@ -2447,19 +2447,19 @@
         },
         {
           "id": "12-5-1-a",
-          "title": "",
+          "title": "12.5.1.a Porcentaje de residuos sólidos urbanos recolectados reciclables",
           "description": "",
           "keywords": "",
           "href": "/site/12-5-1-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-5-r-1",
-          "title": "",
+          "title": "12.5.r.1 Proporción de desechos reciclados respecto del total de desechos recolectados",
           "description": "",
           "keywords": "",
           "href": "/site/12-5-r-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "12-6-1",
@@ -2495,11 +2495,11 @@
         },
         {
           "id": "12-b-1",
-          "title": "",
+          "title": "12.b.1 Implementación de herramientas contables estándar para supervisar los aspectos económicos y ambientales de la sostenibilidad del turismo",
           "description": "",
           "keywords": "",
           "href": "/site/12-b-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-c-1",
@@ -2511,19 +2511,19 @@
         },
         {
           "id": "12-n1-1",
-          "title": "",
+          "title": "12.n1.1 Porcentaje de municipios con disposición adecuada de residuos sólidos urbanos",
           "description": "",
           "keywords": "",
           "href": "/site/12-n1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "12-n2-1",
-          "title": "",
+          "title": "12.n2.1 Uso de fertilizante fosfatados (Kg/Ha)",
           "description": "",
           "keywords": "",
           "href": "/site/12-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2535,11 +2535,11 @@
         
         {
           "id": "13-1-1",
-          "title": "",
+          "title": "13.1.1 Número de personas muertas, desaparecidas y afectadas directamente atribuido a desastres por cada 100 000 habitantes",
           "description": "",
           "keywords": "",
           "href": "/site/13-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-1-2",
@@ -2559,11 +2559,11 @@
         },
         {
           "id": "13-1-r",
-          "title": "",
+          "title": "13.1.r Ocurrencia de eventos naturales extremos y desastres, desglosada por tipo",
           "description": "",
           "keywords": "",
           "href": "/site/13-1-r/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-2-1",
@@ -2591,11 +2591,11 @@
         },
         {
           "id": "13-3-r-1",
-          "title": "",
+          "title": "13.3.r.1 Emisiones de gases de efecto invernadero, desglosadas por sector (actividad económica)",
           "description": "",
           "keywords": "",
           "href": "/site/13-3-r-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "13-a-1",
@@ -2615,27 +2615,27 @@
         },
         {
           "id": "13-n1-1",
-          "title": "",
+          "title": "13.n1.1 Severidad acumulada de excedencias de ozono y PM2.5 en un conjunto de estaciones de monitoreo centinela",
           "description": "",
           "keywords": "",
           "href": "/site/13-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-n1-2",
-          "title": "",
+          "title": "13.n1.2 Fortalecimiento de capacidades adaptativas de los municipios para responder al cambio climático",
           "description": "",
           "keywords": "",
           "href": "/site/13-n1-2/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "13-n2-1",
-          "title": "",
+          "title": "13.n2.1 Intensidad de carbono por la quema de combustibles fósiles",
           "description": "",
           "keywords": "",
           "href": "/site/13-n2-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2663,11 +2663,11 @@
         },
         {
           "id": "14-2-r",
-          "title": "",
+          "title": "14.2.r Área de manglares",
           "description": "",
           "keywords": "",
           "href": "/site/14-2-r/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-3-1",
@@ -2687,19 +2687,19 @@
         },
         {
           "id": "14-5-1",
-          "title": "",
+          "title": "14.5.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
           "description": "",
           "keywords": "",
           "href": "/site/14-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-5-r-1",
-          "title": "",
+          "title": "14.5.r.1 Cobertura de las zonas protegidas en relación con las zonas marinas",
           "description": "",
           "keywords": "",
           "href": "/site/14-5-r-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-6-1",
@@ -2719,11 +2719,11 @@
         },
         {
           "id": "14-a-1",
-          "title": "",
+          "title": "14.a.1 Proporción del Presupuesto Federal para Investigación Científica y Desarrollo Experimental asignado a la Secretaría de Marina",
           "description": "",
           "keywords": "",
           "href": "/site/14-a-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "14-b-1",
@@ -2743,11 +2743,11 @@
         },
         {
           "id": "14-n1-1",
-          "title": "",
+          "title": "14.n1.1 Refugios pesqueros en aguas nacionales.",
           "description": "",
           "keywords": "",
           "href": "/site/14-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         }]
     }
   },
@@ -2759,35 +2759,35 @@
         
         {
           "id": "15-1-1",
-          "title": "",
+          "title": "15.1.1 Superficie forestal como proporción de la superficie total",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-2",
-          "title": "",
+          "title": "15.1.2 Proporción de lugares importantes para la diversidad biológica terrestre y del agua dulce que forman parte de zonas protegidas, desglosada por tipo de ecosistema",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-r-a",
-          "title": "",
+          "title": "15.1.r-a Cobertura de las zonas terrestres protegidas en relación con el territorio terrestre",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-r-a/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-1-r-b",
-          "title": "",
+          "title": "15.1.r.b Área de humedales incluidos en la Convención relativa a los Humedales de Importancia Internacional, especialmente como Hábitat de Aves Acuáticas (Convención de Ramsar)",
           "description": "",
           "keywords": "",
           "href": "/site/15-1-r-b/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-2-1",
@@ -2807,27 +2807,27 @@
         },
         {
           "id": "15-4-1",
-          "title": "",
+          "title": "15.4.1 Lugares importantes para la biodiversidad de las montañas incluidos en zonas protegidas",
           "description": "",
           "keywords": "",
           "href": "/site/15-4-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-4-2",
-          "title": "",
+          "title": "15.4.2. Índice de cobertura verde de las montañas",
           "description": "",
           "keywords": "",
           "href": "/site/15-4-2/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-5-1",
-          "title": "",
+          "title": "15.5.1 Proporción de especies en peligro de extinción",
           "description": "",
           "keywords": "",
           "href": "/site/15-5-1/",
-          "status": "notstarted"
+          "status": "complete"
         },
         {
           "id": "15-6-1",
@@ -2887,19 +2887,19 @@
         },
         {
           "id": "15-n1-1",
-          "title": "",
+          "title": "15.n1.1 Porcentaje de ANP terrestres que incrementan o mantienen su superficie con cobertura vegetal, o que presentan pérdidas menores al 5%",
           "description": "",
           "keywords": "",
           "href": "/site/15-n1-1/",
-          "status": "notstarted"
+          "status": "inprogress"
         },
         {
           "id": "15-n2-1",
-          "title": "",
+          "title": "15.n2.1 Tasa anual de deforestación bruta a nivel nacional",
           "description": "",
           "keywords": "",
           "href": "/site/15-n2-1/",
-          "status": "notstarted"
+          "status": "complete"
         }]
     }
   },
