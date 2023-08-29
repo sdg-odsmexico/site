@@ -122,7 +122,7 @@ var translations = {
         
         Indicator 2.1.2.esp -
         
-         - Indicators For The Sustainable Development Goals
+        2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa (carencia por acceso a la alimentación), desglosada por sexo y edad - Indicators For The Sustainable Development Goals
     </title>
 
 
@@ -147,7 +147,7 @@ var translations = {
         <link res="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230829165350">
+        <link rel="stylesheet" href="/site/assets/css/style.css?v=20230829175516">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -436,7 +436,7 @@ data-event-label="high"
                         
                         Indicator 2.1.2.esp
                         
-                        <span class="lead-copy"></span>
+                        <span class="lead-copy">2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa (carencia por acceso a la alimentación), desglosada por sexo y edad</span>
                     </h1>
                 </div>
             </div>
@@ -463,17 +463,17 @@ data-event-label="high"
   id="indicatorData"
   data-indicatorid='indicator_2-1-2-esp'
   data-id="2-1-2-esp"
-  data-country="México"
-  data-charttitle=""
+  data-country="Nacional, grupos de edad y sexo"
+  data-charttitle="2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa (carencia por acceso a la alimentación), desglosada por sexo y edad"
   data-charttitles="[]"
-  data-measurementunit=""
+  data-measurementunit="Porcentaje"
   data-xaxislabel=""
-  data-showdata="false"
-  data-graphtype="Line"
-  data-graphtypes="[]"
+  data-showdata="true"
+  data-graphtype="line"
+  data-graphtypes="[{&quot;series&quot;:&quot;Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad&quot;,&quot;title&quot;:&quot;Proporción de la población con inseguridad alimentaria moderada o severa, desglosada por sexo y edad&quot;},{&quot;series&quot;:&quot;Proporción de la población con inseguridad alimentaria moderada o severa, por desglose geográfico&quot;,&quot;title&quot;:&quot;Proporción de la población con inseguridad alimentaria moderada o severa, por desglose geográfico&quot;}]"
   data-geocoderegex=""
   data-showmap="false"
-  data-startvalues="[]"
+  data-startvalues="[{&quot;field&quot;:&quot;Sexo&quot;,&quot;value&quot;:&quot;Total&quot;}]"
   data-graphlimits="[]"
   data-stackeddisaggregation=""
   data-graphannotations="[]"
@@ -487,7 +487,277 @@ data-event-label="high"
   data-proxyseries="null"
 >
   
-  <div id="indicator-main" class="indicator-main col-md-12">
+  <span role="status" class="visually-hidden" id="indicator-data-view-status"></span>
+  <div id="indicator-sidebar" class="indicator-sidebar col-md-3">
+    <div id="serieses"></div>
+<div id="units"></div>
+<div id="toolbar">
+  <span id="series-help">
+    <h4>Sub-categories</h4>
+    <p>Choose categories from the dropdowns below to see different breakdowns of the data. Some will not be available until a higher level is chosen.</p>
+  </span>
+  <div id="fields">
+    <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+  </div>
+</div>
+
+  </div>
+  <div id="indicator-main" class="indicator-main col-md-9">
+    
+
+
+
+
+<div id="headlineTable">
+
+  <div id="datatables">
+
+    
+    <a href="https://sdg-odsmexico.github.io/data/en/data/2-1-2-esp.csv" class="btn btn-primary btn-download" download='indicator_2-1-2-esp.csv' tabindex='0' role='button'>Download source data (.csv)</a>
+
+    <p class="no-js-disaggregation-hint">Download source data for disaggregations (.csv)</p>
+
+    
+    <h3>No headline data available</h3>
+    
+  </div>
+
+  
+
+</div>
+
+
+<section>
+
+  <p class="async-loading" data-img="/site/assets/img/loading-small.gif"></p>
+
+  <div class="async-loaded mt-4" style="display:none;">
+
+    <div style="display: none;">
+    <span id="table-alternative">For tabular data alternative see Table tab.</span>
+  </div>
+  <ul class="nav nav-tabs non-stacking-tabs data-view" role="tablist">
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link active"
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-chartview"
+          data-bs-target="#chartview"
+          aria-controls="chartview"
+          aria-describedby="table-alternative"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Chart tab"
+
+        
+      >Chart</button>
+    </li>
+    
+    <li role="presentation"
+      class="
+        nav-item
+        
+        
+      ">
+      <button
+        class="nav-link "
+        data-bs-toggle="tab"
+        role="tab"
+        type="button"
+        
+          id="tab-tableview"
+          data-bs-target="#tableview"
+          aria-controls="tableview"
+          data-on="click"
+data-event-category="Tab change"
+data-event-action="Change data view"
+data-event-label="Change to Table tab"
+
+        
+      >Table</button>
+    </li>
+    
+  </ul>
+  
+    <div class="tab-content data-view">
+    
+      
+        <div role="tabpanel" class="tab-pane active" id="chartview">
+          
+
+    <div id="dataset-size-warning" style="display:none" role="alert">
+      <i class="fa fa-bolt"><span class="sr-only">Warning:</span></i>
+      There are too many datasets to show on the chart. Not all will be shown until you remove some selections.
+    </div>
+
+    
+    <div id="selectionsChart">
+      <figure role="group">
+        <div id="chart-canvas">
+          <h4 id="chart-heading" class="chart-title">
+            2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa (carencia por acceso a la alimentación), desglosada por sexo y edad
+          </h4>
+          <div id="chart" class="plot-container">
+            <canvas
+    role="img"
+    aria-labelledby="chart-heading"
+    aria-describedby="table-alternative chart-annotations"
+    tabindex="0"
+ ></canvas>
+
+          </div>
+          <div id="plotLegend"></div>
+          
+
+
+
+<div id="selectionChartFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>Se emplea una escala de seguridad alimentaria basada en una propuesta de Pérez-Escamilla, Melgar-Quiñonez, Nord, Álvarez y Segall-Correa. Esta escala reconoce cuatro posibles niveles de inseguridad alimentaria inseguridad alimentaria severa, inseguridad alimentaria moderada, inseguridad alimentaria leve y seguridad alimentaria.
+Para mayor detalle consultar La Metodología para la medición multidimensional de la pobreza en México.
+Datos de CONEVAL sobre acceso a la alimentación http://www.coneval.gob.mx/Medicion/Paginas/PobrezaInicio.aspx</dd>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Nacional, grupos de edad y sexo</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+        </div>
+      </figure>
+      <div id="chartSelectionDownload" class="clearfix">
+        <button
+          id="btnSave"
+          title="Download chart image as PNG"
+          aria-label="Download chart image as PNG"
+          class='btn btn-primary btn-download'>
+          Download chart image (.png)
+        </button><!--
+   --></div>
+    </div>
+
+
+
+        </div>
+      
+    
+      
+        <div role="tabpanel" class="tab-pane " id="tableview">
+          <div style="display: none;">
+            <span id="column-sort-info">Click to sort by this column</span>
+          </div>
+          <div id="selectionsTable"></div>
+<dl id="tableTargetLines" class="clearfix"></dl>
+
+
+
+
+<div id="selectionTableFooter" class="table-footer-text">
+  <h5 class="sr-only">Chart details</h5>
+    <dl>
+        
+        <dt>Source:</dt>
+        <dd>Se emplea una escala de seguridad alimentaria basada en una propuesta de Pérez-Escamilla, Melgar-Quiñonez, Nord, Álvarez y Segall-Correa. Esta escala reconoce cuatro posibles niveles de inseguridad alimentaria inseguridad alimentaria severa, inseguridad alimentaria moderada, inseguridad alimentaria leve y seguridad alimentaria.
+Para mayor detalle consultar La Metodología para la medición multidimensional de la pobreza en México.
+Datos de CONEVAL sobre acceso a la alimentación http://www.coneval.gob.mx/Medicion/Paginas/PobrezaInicio.aspx</dd>
+        
+
+        
+        <dt>Geographical Area:</dt>
+        <dd>Nacional, grupos de edad y sexo</dd>
+        
+
+        <dt class="data-controlled-footer-field unit-from-data">Unit of Measurement:</dt>
+        <dd class="data-controlled-footer-field unit-from-data"></dd>
+
+        
+
+        
+
+        
+
+        
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        >Footnote:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="COMMENT_TS"
+        ></dd>
+        
+        <dt
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        >Data last updated:</dt>
+        <dd
+          class="data-controlled-footer-field"
+          data-ts-attribute="DATA_LAST_UPDATE"
+        ></dd>
+        
+        
+    </dl>
+</div>
+
+<div id="tableSelectionDownload" class="clearfix"></div>
+
+        </div>
+      
+    
+  </div>
+  
+
+  </div>
+
+</section>
+
   
   <div class="mt-4">
 <ul class="nav nav-tabs" role="tablist">
@@ -595,6 +865,294 @@ data-event-label="Change to indicator.sources tab"
       
       
       
+      
+      <tr>
+        <th scope="row">Goal </th>
+        <td>
+          
+            <p>Objetivo 2. Poner fin al hambre, lograr la seguridad alimentaria y la mejora de la nutrición y promover la agricultura sostenible</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Target </th>
+        <td>
+          
+            <p>2.1 De aquí a 2030, poner fin al hambre y asegurar el acceso de todas las personas, en particular los pobres y las personas en situaciones de vulnerabilidad, incluidos los niños menores de 1 año, a una alimentación sana, nutritiva y suficiente durante todo el año</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Indicator </th>
+        <td>
+          
+            <p>2.1.2 Proporción de la población con inseguridad alimentaria moderada o severa (carencia por acceso a la alimentación), desglosada por sexo y edad</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Series </th>
+        <td>
+          
+            <p>La inseguridad alimentaria moderada o severa son los grados de inseguridad alimentaria que reflejan la existencia de limitaciones en la cantidad de alimentos en el hogar y experiencias de hambre en la alimentación de los integrantes de los hogares. La clasificación de la situación de seguridad o inseguridad alimentaria se hace con base en la Escala Mexicana de Seguridad Alimentaria (EMSA).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadata update </th>
+        <td>
+          
+            <p>11 de noviembre de 2019</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact person(s) </th>
+        <td>
+          
+            <p>Alida Marcela Gutiérrez Landeros</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact person function </th>
+        <td>
+          
+            <p>Directora Ejecutiva de Medición de Pobreza y Seguimiento de Indicadores</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact phone </th>
+        <td>
+          
+            <p>54 81 72 75 o 00, ext. 70075</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Contact mail </th>
+        <td>
+          
+            <p>amgutierrez@coneval.org.mx</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Definition and concepts </th>
+        <td>
+          
+            <p>Este indicador está ligado a la Meta 1.2 de reducir al menos a la mitad la proporción de hombres, mujeres y niños de todas las edades que viven en la pobreza en todas sus dimensiones de acuerdo con las definiciones nacionales. Permite dar seguimiento a la evolución de la población que carece de un ingreso suficiente para satisfacer sus necesidades alimentarias y no alimentarias, como insumo para la generación de estrategias, políticas y acciones de generación de ingreso.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Unit of measure </th>
+        <td>
+          
+            <p>Porcentaje</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data sources </th>
+        <td>
+          
+            <p>Instituto Nacional de Estadística y Geografía (INEGI). Módulo de Condiciones Socioeconómicas de la Encuesta Nacional de Ingresos y Gastos de los Hogares (MCS-ENIGH) 2008-2014. https://www.inegi.org.mx/programas/mcs/2008/y Modelo Estadístico para la Continuidad (MEC) del MCS-ENIGH 2016 y 2018. https://www.inegi.org.mx/investigacion/eash/2018/
+Consejo Nacional de Evaluación de la Política de Desarrollo Social (CONEVAL).  Metodología para la medición multidimensional de la pobreza en México. Fecha de consulta 05 de agosto de 2019.</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data release calendar </th>
+        <td>
+          
+            <p>Segundo semestre de 2021 */</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data providers </th>
+        <td>
+          
+            <p>Se emplea una escala de seguridad alimentaria basada en una propuesta de Pérez-Escamilla, Melgar-Quiñonez, Nord, Álvarez y Segall-Correa. Esta escala reconoce cuatro posibles niveles de inseguridad alimentaria inseguridad alimentaria severa, inseguridad alimentaria moderada, inseguridad alimentaria leve y seguridad alimentaria.
+Para mayor detalle consultar La Metodología para la medición multidimensional de la pobreza en México.
+Datos de CONEVAL sobre acceso a la alimentación http://www.coneval.gob.mx/Medicion/Paginas/PobrezaInicio.aspx</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
         
           
       
@@ -625,43 +1183,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Validation </th>
+        <td>
           
-      
-      
-      
-        
+            <p>El Indicador describe el  porcentaje de personas que han visto reducida la cantidad de alimentos y han experimentado episodios de hambre en su hogar. El indicador ha sido utilizado para evaluar el impacto de algunos programas de ayuda alimentaria que forman parte de la Cruzada Nacional Contra el Hambre.</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -685,28 +1219,19 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">Data availability and disaggregation </th>
+        <td>
           
-      
-      
-      
-        
+            <p>2008 - 2018</p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
       
       
       
@@ -715,83 +1240,49 @@ data-event-label="Change to indicator.sources tab"
       
       
       
-        
+      
+      <tr>
+        <th scope="row">References and Documentation </th>
+        <td>
           
-      
-      
-      
-        
+            <p><a href="https://agenda2030.mx/docs/files/csv/zip/2.1.2_es.zip">Datos para el cálculo</a></p>
+
           
-      
-      
-      
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Data last updated </th>
+        <td>
           
-      
-      
-      
+            Aug 29, 2023
+          
+        </td>
+        </tr>
         
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Metadata last updated </th>
+        <td>
           
-      
-      
-      
+            Aug 29, 2023
+          
+        </td>
+        </tr>
         
-          
       
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
-      
-      
-      
-        
-          
+  
   
   
   
@@ -1051,6 +1542,241 @@ data-event-label="Change to indicator.sources tab"
 
 
 
+  <div class="row">
+  
+    
+    
+    <div class="col-md-6">
+      
+      <table class="table metadata-content">
+  <tbody>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Organisation </th>
+        <td>
+          
+            <p>Se emplea una escala de seguridad alimentaria basada en una propuesta de Pérez-Escamilla, Melgar-Quiñonez, Nord, Álvarez y Segall-Correa. Esta escala reconoce cuatro posibles niveles de inseguridad alimentaria inseguridad alimentaria severa, inseguridad alimentaria moderada, inseguridad alimentaria leve y seguridad alimentaria.
+Para mayor detalle consultar La Metodología para la medición multidimensional de la pobreza en México.
+Datos de CONEVAL sobre acceso a la alimentación http://www.coneval.gob.mx/Medicion/Paginas/PobrezaInicio.aspx</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Periodicity </th>
+        <td>
+          
+            <p>Bienal</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Geographical coverage </th>
+        <td>
+          
+            <p>Nacional, grupos de edad y sexo</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Release date </th>
+        <td>
+          
+            Nov 01, 2023
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+      
+      <tr>
+        <th scope="row">Next release </th>
+        <td>
+          
+            <p>Segundo semestre de 2021 */</p>
+
+          
+        </td>
+        </tr>
+        
+      
+  
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+      
+      
+      
+        
+          
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </tbody>
+</table>
+
+    </div>
+    
+  </div>
+
 
             </article>
         </div>
@@ -1160,12 +1886,12 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Search';</script>
 
-<script src='/site/assets/js/sdg.js?v=20230829165350'></script>
+<script src='/site/assets/js/sdg.js?v=20230829175516'></script>
 
 
     
     
-    <script src="/site/assets/js/custom.js?v=20230829165350"></script><script>
+    <script src="/site/assets/js/custom.js?v=20230829175516"></script><script>
     new indicatorInit();
     new accessibilitySwitcher();
 </script>
