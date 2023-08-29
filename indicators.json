@@ -46,6 +46,14 @@
           "status": "complete"
         },
         {
+          "id": "1-2-1-esp",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/1-2-1-esp/",
+          "status": "notstarted"
+        },
+        {
           "id": "1-2-2",
           "title": "(a) Hazardous waste generated per capita; and (b) proportion of hazardous waste treated, by type of treatment",
           "description": "",
@@ -252,6 +260,14 @@
           "keywords": "",
           "href": "/site/2-1-2-a/",
           "status": "complete"
+        },
+        {
+          "id": "2-1-2-esp",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/2-1-2-esp/",
+          "status": "notstarted"
         },
         {
           "id": "2-2-1",
@@ -1483,6 +1499,14 @@
           "description": "",
           "keywords": "",
           "href": "/site/7-1-1/",
+          "status": "notstarted"
+        },
+        {
+          "id": "7-1-1-esp",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/7-1-1-esp/",
           "status": "notstarted"
         },
         {
@@ -3116,6 +3140,14 @@
           "keywords": "",
           "href": "/site/16-6-2-b/",
           "status": "complete"
+        },
+        {
+          "id": "16-6-2-esp",
+          "title": "",
+          "description": "",
+          "keywords": "",
+          "href": "/site/16-6-2-esp/",
+          "status": "notstarted"
         },
         {
           "id": "16-7-1",
