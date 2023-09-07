@@ -250,7 +250,7 @@ reporting_status:
   status_types:
     - value: inprogress
       label: status.statistics_in_progress
-      hide_on_goal_pages: true
+      hide_on_goal_pages: false
     - value: notstarted
       label: status.exploring_data_sources
       hide_on_goal_pages: false
