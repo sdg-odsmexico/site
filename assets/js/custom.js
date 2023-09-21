@@ -177,7 +177,7 @@ function revisaContra() {
 }
 
 if(!URLactual.includes("prod")){
-  if (URLactual=="https://sdg-odsmexico.github.io/site/" || document.getElementById("ususesion").innerHTML==""){
+  if (URLactual=="https://sdg-odsmexico.github.io/site/"){
     document.body.style.overflow = "hidden";
     localStorage.clear();
     document.getElementById("ususesion").innerHTML= "";
@@ -189,11 +189,16 @@ if(!URLactual.includes("prod")){
     document.getElementById("dUsuar").style.display="block";
   }
   else{
-    let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
-    //console.log(JSON.parse(localStorage.getItem('usuario')));
-    document.getElementById("ususesion").innerHTML= datoUsuario;
-    document.body.style.overflow = "auto";
-    document.getElementById("dUsuar").style.display="block";
+    if(document.getElementById("ususesion").innerHTML==""){
+      window.location.href="https://sdg-odsmexico.github.io/site/";
+    }
+    else{
+      let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
+      //console.log(JSON.parse(localStorage.getItem('usuario')));
+      document.getElementById("ususesion").innerHTML= datoUsuario;
+      document.body.style.overflow = "auto";
+      document.getElementById("dUsuar").style.display="block";
+    }
   }
 }
 else{
