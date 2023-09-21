@@ -177,7 +177,7 @@ function revisaContra() {
 }
 
 if(!URLactual.includes("prod")){
-  if (URLactual=="https://sdg-odsmexico.github.io/site/"){
+  if (URLactual=="https://sdg-odsmexico.github.io/site/" || document.getElementById("ususesion").innerHTML==""){
     document.body.style.overflow = "hidden";
     localStorage.clear();
     document.getElementById("ususesion").innerHTML= "";
