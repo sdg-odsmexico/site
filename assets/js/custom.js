@@ -189,8 +189,8 @@ if(!URLactual.includes("prod")){
     document.getElementById("dUsuar").style.display="block";
   }
   else{
-    if(document.getElementById("ususesion").innerHTML==""){
-      window.location.href="https://sdg-odsmexico.github.io/site/";
+    if (localStorage.getItem('usuario') === null) {
+       window.location.href="https://sdg-odsmexico.github.io/site/";
     }
     else{
       let datoUsuario = JSON.parse(localStorage.getItem('usuario'));
