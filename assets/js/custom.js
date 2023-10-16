@@ -37,6 +37,18 @@ var usucontra=[
   {
     "usuario":"miguel.rosas",
     "contra":"migros90"
+  },
+  {
+    "usuario":"patricia.lujan",
+    "contra":"patluj46"
+  },
+  {
+    "usuario":"manuel.villanueva",
+    "contra":"manvil48"
+  },
+  {
+    "usuario":"adrian.puente",
+    "contra":"adrpue50"
   }
 ]
 //colores para el  mapa
