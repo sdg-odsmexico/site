@@ -25,6 +25,18 @@ var usucontra=[
   {
     "usuario":"andrea.fernandez",
     "contra":"andrea02"
+  },
+  {
+    "usuario":"katyna.garcia",
+    "contra":"katgar70"
+  },
+  {
+    "usuario":"elena.lopez",
+    "contra":"elelop80"
+  },
+  {
+    "usuario":"miguel.rosas",
+    "contra":"migros90"
   }
 ]
 //colores para el  mapa
